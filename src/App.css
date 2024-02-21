@@ -1,0 +1,60 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card{
+  height: 350px;
+  width: 450px;
+  background-color: rgb(208, 23, 23);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.A{
+  padding: 10px;
+}
+.A input{
+ height: 30px;
+ width: 360px;
+ border: none;
+ outline: none;
+}
+.A button{
+  height: 30px;
+  width: 60px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.A button:hover{
+  background-color: rgb(182, 172, 172);
+}
+.A1{
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  padding: 10px;
+}
+.A1 input{
+  width: 40px;
+}
+.B{
+  padding: 10px;
+  font-size: larger;
+}
+.B label{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastbutton{
+  height: 40px ;
+  width: 300px;
+  border: none;
+}
